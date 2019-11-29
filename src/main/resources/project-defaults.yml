@@ -1,0 +1,10 @@
+
+thorntail:
+  datasources:
+    data-sources:
+      AdminDS:
+        driver-name: mysql
+        connection-url:  jdbc:mysql://localhost:3306/cayambe?useSSL=false
+        user-name: cayambe
+        password: cayambe
+        valid-connection-checker-class-name: org.jboss.jca.adapters.jdbc.extensions.mysql.MySQLValidConnectionChecker
